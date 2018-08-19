@@ -1,0 +1,2 @@
+(nan, nan, nan, nan, nan, nan, nan, nan, 600.0, 100.0, 40.0, 15.0, 2.5)
+(nan, nan, nan, nan, nan, nan, nan, nan, (600, 1000), (100, 1000), (50, 800), (300, 50), (50, 50))

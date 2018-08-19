@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "run_hmm.py", line 15, in <module>
+    hmm = pyemma.msm.estimate_hidden_markov_model(dtrajs, no_macrostates, lag, connectivity='largest')
+NameError: name 'no_macrostates' is not defined

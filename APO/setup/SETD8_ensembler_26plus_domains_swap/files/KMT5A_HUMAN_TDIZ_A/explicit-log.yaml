@@ -1,0 +1,9 @@
+datestamp: 2017-01-10 21:53:44 UTC
+finished: true
+gpuid: '1'
+hostname: gpu-1-16.local
+mpi_rank: 0
+openmm_platform: OpenCL
+sim_length: 5 ns
+successful: true
+timing: '2:33:9'

@@ -1,0 +1,2 @@
+KMT5A_HUMAN_TDIZ_B             99.3
+KMT5A_HUMAN_TDIZ_A             98.6

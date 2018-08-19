@@ -1,0 +1,1 @@
+-hosts gpu-2-4:1,gpu-2-4:1 -np 1 -env CUDA_VISIBLE_DEVICES 1 ensembler refine_explicit --gpupn 2 --simlength 5*nanoseconds : -np 1 -env CUDA_VISIBLE_DEVICES 0 ensembler refine_explicit --gpupn 2 --simlength 5*nanoseconds

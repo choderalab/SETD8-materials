@@ -1,0 +1,26 @@
+/cbio/jclab/home/rafal.wiewiora/anaconda3/lib/python3.5/site-packages/msmtools/analysis/dense/decomposition.py:540: ImaginaryEigenValueWarning: Using eigenvalues with non-zero imaginary part
+  warnings.warn('Using eigenvalues with non-zero imaginary part', ImaginaryEigenValueWarning)
+Traceback (most recent call last):
+  File "run_hmm.py", line 15, in <module>
+    hmm = pyemma.msm.bayesian_hidden_markov_model(dtrajs, 25, lag, connectivity='largest')
+  File "/cbio/jclab/home/rafal.wiewiora/anaconda3/lib/python3.5/site-packages/pyEMMA-2.4+193.g888a81c-py3.5-linux-x86_64.egg/pyemma/msm/api.py", line 1293, in bayesian_hidden_markov_model
+    return bhmsm_estimator.estimate(dtrajs)
+  File "/cbio/jclab/home/rafal.wiewiora/anaconda3/lib/python3.5/site-packages/pyEMMA-2.4+193.g888a81c-py3.5-linux-x86_64.egg/pyemma/_base/estimator.py", line 369, in estimate
+    self._model = self._estimate(X)
+  File "/cbio/jclab/home/rafal.wiewiora/anaconda3/lib/python3.5/site-packages/pyEMMA-2.4+193.g888a81c-py3.5-linux-x86_64.egg/pyemma/msm/estimators/bayesian_hmsm.py", line 163, in _estimate
+    super(BayesianHMSM, self)._estimate(dtrajs)
+  File "/cbio/jclab/home/rafal.wiewiora/anaconda3/lib/python3.5/site-packages/pyEMMA-2.4+193.g888a81c-py3.5-linux-x86_64.egg/pyemma/msm/estimators/maximum_likelihood_hmsm.py", line 244, in _estimate
+    reversible=self.reversible, dt_model=self.timestep_traj.get_scaled(self.lag))
+  File "/cbio/jclab/home/rafal.wiewiora/anaconda3/lib/python3.5/site-packages/pyEMMA-2.4+193.g888a81c-py3.5-linux-x86_64.egg/pyemma/msm/models/hmsm_sampled.py", line 53, in set_model_params
+    _HMSM.set_model_params(self, P=P, pobs=pobs, pi=pi, reversible=reversible, dt_model=dt_model, neig=neig)
+  File "/cbio/jclab/home/rafal.wiewiora/anaconda3/lib/python3.5/site-packages/pyEMMA-2.4+193.g888a81c-py3.5-linux-x86_64.egg/pyemma/msm/models/hmsm.py", line 92, in set_model_params
+    _MSM.set_model_params(self, P=P, pi=pi, reversible=reversible, dt_model=dt_model, neig=neig)
+  File "/cbio/jclab/home/rafal.wiewiora/anaconda3/lib/python3.5/site-packages/pyEMMA-2.4+193.g888a81c-py3.5-linux-x86_64.egg/pyemma/msm/models/msm.py", line 144, in set_model_params
+    self.update_model_params(pi=pi, dt_model=dt_model, neig=neig)
+  File "/cbio/jclab/home/rafal.wiewiora/anaconda3/lib/python3.5/site-packages/pyEMMA-2.4+193.g888a81c-py3.5-linux-x86_64.egg/pyemma/_base/model.py", line 65, in update_model_params
+    setattr(self, key, value)  # set parameter for the first time.
+  File "/cbio/jclab/home/rafal.wiewiora/anaconda3/lib/python3.5/site-packages/pyEMMA-2.4+193.g888a81c-py3.5-linux-x86_64.egg/pyemma/msm/models/msm.py", line 257, in pi
+    value = _statdist(self.P)
+  File "/cbio/jclab/home/rafal.wiewiora/anaconda3/lib/python3.5/site-packages/msmtools/analysis/api.py", line 346, in stationary_distribution
+    raise ValueError("Input matrix is not weakly connected. "
+ValueError: Input matrix is not weakly connected. Therefore it has no unique stationary distribution. Separate disconnected components and handle them separately

@@ -1,0 +1,43 @@
+bsub < bsub_dist_cross_tica_kinetic_lag1_split0.sh
+bsub < bsub_dist_cross_tica_kinetic_lag1_split1.sh
+bsub < bsub_dist_cross_tica_kinetic_lag1_split2.sh
+bsub < bsub_dist_cross_tica_kinetic_lag1_split3.sh
+bsub < bsub_dist_cross_tica_kinetic_lag1_split4.sh
+#bsub < bsub_dist_cross_tica_kinetic_lag1_split5.sh
+#bsub < bsub_dist_cross_tica_kinetic_lag1_split6.sh
+#bsub < bsub_dist_cross_tica_kinetic_lag1_split7.sh
+#bsub < bsub_dist_cross_tica_kinetic_lag1_split8.sh
+#bsub < bsub_dist_cross_tica_kinetic_lag1_split9.sh
+
+bsub < bsub_dist_cross_tica_kinetic_lag10_split0.sh
+bsub < bsub_dist_cross_tica_kinetic_lag10_split1.sh
+bsub < bsub_dist_cross_tica_kinetic_lag10_split2.sh
+bsub < bsub_dist_cross_tica_kinetic_lag10_split3.sh
+bsub < bsub_dist_cross_tica_kinetic_lag10_split4.sh
+#bsub < bsub_dist_cross_tica_kinetic_lag10_split5.sh
+#bsub < bsub_dist_cross_tica_kinetic_lag10_split6.sh
+#bsub < bsub_dist_cross_tica_kinetic_lag10_split7.sh
+#bsub < bsub_dist_cross_tica_kinetic_lag10_split8.sh
+#bsub < bsub_dist_cross_tica_kinetic_lag10_split9.sh
+
+bsub < bsub_dist_cross_tica_commute_lag1_split0.sh
+bsub < bsub_dist_cross_tica_commute_lag1_split1.sh
+bsub < bsub_dist_cross_tica_commute_lag1_split2.sh
+bsub < bsub_dist_cross_tica_commute_lag1_split3.sh
+bsub < bsub_dist_cross_tica_commute_lag1_split4.sh
+#bsub < bsub_dist_cross_tica_commute_lag1_split5.sh
+#bsub < bsub_dist_cross_tica_commute_lag1_split6.sh
+#bsub < bsub_dist_cross_tica_commute_lag1_split7.sh
+#bsub < bsub_dist_cross_tica_commute_lag1_split8.sh
+#bsub < bsub_dist_cross_tica_commute_lag1_split9.sh
+
+bsub < bsub_dist_cross_tica_commute_lag10_split0.sh
+bsub < bsub_dist_cross_tica_commute_lag10_split1.sh
+bsub < bsub_dist_cross_tica_commute_lag10_split2.sh
+bsub < bsub_dist_cross_tica_commute_lag10_split3.sh
+bsub < bsub_dist_cross_tica_commute_lag10_split4.sh
+#bsub < bsub_dist_cross_tica_commute_lag10_split5.sh
+#bsub < bsub_dist_cross_tica_commute_lag10_split6.sh
+#bsub < bsub_dist_cross_tica_commute_lag10_split7.sh
+#bsub < bsub_dist_cross_tica_commute_lag10_split8.sh
+#bsub < bsub_dist_cross_tica_commute_lag10_split9.sh

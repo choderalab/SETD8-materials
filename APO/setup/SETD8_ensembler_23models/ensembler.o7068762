@@ -1,0 +1,667 @@
+Done.
+Querying UniProt web server...
+Number of entries returned from initial UniProt search: 2
+
+Set of unique domain names returned from the initial UniProt search using the query string 'SETD8_HUMAN':
+set(['SET'])
+
+Unique domain names selected after searching with the case-sensitive regex string 'SET':
+set(['SET'])
+
+Done.
+Set of unique domain names returned from the initial UniProt search using the query string 'SETD8_HUMAN':
+set(['SET'])
+
+22 PDB chains selected.
+Downloading PDB file for: 1ZKK
+Downloading sifts file for: 1ZKK
+Downloading PDB file for: 2BQZ
+Downloading sifts file for: 2BQZ
+Downloading PDB file for: 3F9W
+Downloading sifts file for: 3F9W
+Downloading PDB file for: 3F9X
+Downloading sifts file for: 3F9X
+Downloading PDB file for: 3F9Y
+Downloading sifts file for: 3F9Y
+Downloading PDB file for: 3F9Z
+Downloading sifts file for: 3F9Z
+Downloading PDB file for: 4IJ8
+Downloading sifts file for: 4IJ8
+Extracting residues from PDB chains...
+22 templates selected.
+
+Writing template structures...
+Done.
+Working on target SETD8_HUMAN_D0...
+Done.
+=========================================================================
+Working on target "SETD8_HUMAN_D0"
+=========================================================================
+-------------------------------------------------------------------------
+Modelling "SETD8_HUMAN_D0" => "SETD8_HUMAN_1ZKK_A"
+-------------------------------------------------------------------------
+0 atoms in HETATM/BLK residues constrained
+to protein atoms within 2.30 angstroms
+and protein CA atoms within 10.00 angstroms
+0 atoms in residues without defined topology
+constrained to be rigid bodies
+
+>> Summary of successfully produced models:
+Filename                          molpdf
+----------------------------------------
+SETD8_HUMAN_D0.B99990001.pdb    33185.44922
+
+-------------------------------------------------------------------------
+Modelling "SETD8_HUMAN_D0" => "SETD8_HUMAN_1ZKK_C"
+-------------------------------------------------------------------------
+0 atoms in HETATM/BLK residues constrained
+to protein atoms within 2.30 angstroms
+and protein CA atoms within 10.00 angstroms
+0 atoms in residues without defined topology
+constrained to be rigid bodies
+
+>> Summary of successfully produced models:
+Filename                          molpdf
+----------------------------------------
+SETD8_HUMAN_D0.B99990001.pdb    18269.20703
+
+-------------------------------------------------------------------------
+Modelling "SETD8_HUMAN_D0" => "SETD8_HUMAN_1ZKK_B"
+-------------------------------------------------------------------------
+0 atoms in HETATM/BLK residues constrained
+to protein atoms within 2.30 angstroms
+and protein CA atoms within 10.00 angstroms
+0 atoms in residues without defined topology
+constrained to be rigid bodies
+
+>> Summary of successfully produced models:
+Filename                          molpdf
+----------------------------------------
+SETD8_HUMAN_D0.B99990001.pdb    10674.10547
+
+-------------------------------------------------------------------------
+Modelling "SETD8_HUMAN_D0" => "SETD8_HUMAN_1ZKK_D"
+-------------------------------------------------------------------------
+0 atoms in HETATM/BLK residues constrained
+to protein atoms within 2.30 angstroms
+and protein CA atoms within 10.00 angstroms
+0 atoms in residues without defined topology
+constrained to be rigid bodies
+
+>> Summary of successfully produced models:
+Filename                          molpdf
+----------------------------------------
+SETD8_HUMAN_D0.B99990001.pdb    33006.28516
+
+-------------------------------------------------------------------------
+Modelling "SETD8_HUMAN_D0" => "SETD8_HUMAN_2BQZ_A"
+-------------------------------------------------------------------------
+0 atoms in HETATM/BLK residues constrained
+to protein atoms within 2.30 angstroms
+and protein CA atoms within 10.00 angstroms
+0 atoms in residues without defined topology
+constrained to be rigid bodies
+
+>> Summary of successfully produced models:
+Filename                          molpdf
+----------------------------------------
+SETD8_HUMAN_D0.B99990001.pdb    10767.05859
+
+-------------------------------------------------------------------------
+Modelling "SETD8_HUMAN_D0" => "SETD8_HUMAN_2BQZ_E"
+-------------------------------------------------------------------------
+0 atoms in HETATM/BLK residues constrained
+to protein atoms within 2.30 angstroms
+and protein CA atoms within 10.00 angstroms
+0 atoms in residues without defined topology
+constrained to be rigid bodies
+
+>> Summary of successfully produced models:
+Filename                          molpdf
+----------------------------------------
+SETD8_HUMAN_D0.B99990001.pdb    25447.03516
+
+-------------------------------------------------------------------------
+Modelling "SETD8_HUMAN_D0" => "SETD8_HUMAN_3F9W_A"
+-------------------------------------------------------------------------
+0 atoms in HETATM/BLK residues constrained
+to protein atoms within 2.30 angstroms
+and protein CA atoms within 10.00 angstroms
+0 atoms in residues without defined topology
+constrained to be rigid bodies
+
+>> Summary of successfully produced models:
+Filename                          molpdf
+----------------------------------------
+SETD8_HUMAN_D0.B99990001.pdb    32783.80859
+
+-------------------------------------------------------------------------
+Modelling "SETD8_HUMAN_D0" => "SETD8_HUMAN_3F9W_C"
+-------------------------------------------------------------------------
+0 atoms in HETATM/BLK residues constrained
+to protein atoms within 2.30 angstroms
+and protein CA atoms within 10.00 angstroms
+0 atoms in residues without defined topology
+constrained to be rigid bodies
+
+>> Summary of successfully produced models:
+Filename                          molpdf
+----------------------------------------
+SETD8_HUMAN_D0.B99990001.pdb    17995.09570
+
+-------------------------------------------------------------------------
+Modelling "SETD8_HUMAN_D0" => "SETD8_HUMAN_3F9W_B"
+-------------------------------------------------------------------------
+0 atoms in HETATM/BLK residues constrained
+to protein atoms within 2.30 angstroms
+and protein CA atoms within 10.00 angstroms
+0 atoms in residues without defined topology
+constrained to be rigid bodies
+
+>> Summary of successfully produced models:
+Filename                          molpdf
+----------------------------------------
+SETD8_HUMAN_D0.B99990001.pdb    10881.21094
+
+-------------------------------------------------------------------------
+Modelling "SETD8_HUMAN_D0" => "SETD8_HUMAN_3F9W_D"
+-------------------------------------------------------------------------
+0 atoms in HETATM/BLK residues constrained
+to protein atoms within 2.30 angstroms
+and protein CA atoms within 10.00 angstroms
+0 atoms in residues without defined topology
+constrained to be rigid bodies
+
+>> Summary of successfully produced models:
+Filename                          molpdf
+----------------------------------------
+SETD8_HUMAN_D0.B99990001.pdb    17884.29297
+
+-------------------------------------------------------------------------
+Modelling "SETD8_HUMAN_D0" => "SETD8_HUMAN_3F9X_A"
+-------------------------------------------------------------------------
+0 atoms in HETATM/BLK residues constrained
+to protein atoms within 2.30 angstroms
+and protein CA atoms within 10.00 angstroms
+0 atoms in residues without defined topology
+constrained to be rigid bodies
+
+>> Summary of successfully produced models:
+Filename                          molpdf
+----------------------------------------
+SETD8_HUMAN_D0.B99990001.pdb    33409.17969
+
+-------------------------------------------------------------------------
+Modelling "SETD8_HUMAN_D0" => "SETD8_HUMAN_3F9X_C"
+-------------------------------------------------------------------------
+0 atoms in HETATM/BLK residues constrained
+to protein atoms within 2.30 angstroms
+and protein CA atoms within 10.00 angstroms
+0 atoms in residues without defined topology
+constrained to be rigid bodies
+
+>> Summary of successfully produced models:
+Filename                          molpdf
+----------------------------------------
+SETD8_HUMAN_D0.B99990001.pdb    10573.51367
+
+-------------------------------------------------------------------------
+Modelling "SETD8_HUMAN_D0" => "SETD8_HUMAN_3F9X_B"
+-------------------------------------------------------------------------
+0 atoms in HETATM/BLK residues constrained
+to protein atoms within 2.30 angstroms
+and protein CA atoms within 10.00 angstroms
+0 atoms in residues without defined topology
+constrained to be rigid bodies
+
+>> Summary of successfully produced models:
+Filename                          molpdf
+----------------------------------------
+SETD8_HUMAN_D0.B99990001.pdb    25722.44727
+
+-------------------------------------------------------------------------
+Modelling "SETD8_HUMAN_D0" => "SETD8_HUMAN_3F9X_D"
+-------------------------------------------------------------------------
+0 atoms in HETATM/BLK residues constrained
+to protein atoms within 2.30 angstroms
+and protein CA atoms within 10.00 angstroms
+0 atoms in residues without defined topology
+constrained to be rigid bodies
+
+>> Summary of successfully produced models:
+Filename                          molpdf
+----------------------------------------
+SETD8_HUMAN_D0.B99990001.pdb    32758.99219
+
+-------------------------------------------------------------------------
+Modelling "SETD8_HUMAN_D0" => "SETD8_HUMAN_3F9Y_A"
+-------------------------------------------------------------------------
+0 atoms in HETATM/BLK residues constrained
+to protein atoms within 2.30 angstroms
+and protein CA atoms within 10.00 angstroms
+0 atoms in residues without defined topology
+constrained to be rigid bodies
+
+>> Summary of successfully produced models:
+Filename                          molpdf
+----------------------------------------
+SETD8_HUMAN_D0.B99990001.pdb    25722.61914
+
+-------------------------------------------------------------------------
+Modelling "SETD8_HUMAN_D0" => "SETD8_HUMAN_3F9Y_B"
+-------------------------------------------------------------------------
+0 atoms in HETATM/BLK residues constrained
+to protein atoms within 2.30 angstroms
+and protein CA atoms within 10.00 angstroms
+0 atoms in residues without defined topology
+constrained to be rigid bodies
+
+>> Summary of successfully produced models:
+Filename                          molpdf
+----------------------------------------
+SETD8_HUMAN_D0.B99990001.pdb    25588.23633
+
+-------------------------------------------------------------------------
+Modelling "SETD8_HUMAN_D0" => "SETD8_HUMAN_3F9Z_A"
+-------------------------------------------------------------------------
+0 atoms in HETATM/BLK residues constrained
+to protein atoms within 2.30 angstroms
+and protein CA atoms within 10.00 angstroms
+0 atoms in residues without defined topology
+constrained to be rigid bodies
+
+>> Summary of successfully produced models:
+Filename                          molpdf
+----------------------------------------
+SETD8_HUMAN_D0.B99990001.pdb    33007.23047
+
+-------------------------------------------------------------------------
+Modelling "SETD8_HUMAN_D0" => "SETD8_HUMAN_3F9Z_C"
+-------------------------------------------------------------------------
+0 atoms in HETATM/BLK residues constrained
+to protein atoms within 2.30 angstroms
+and protein CA atoms within 10.00 angstroms
+0 atoms in residues without defined topology
+constrained to be rigid bodies
+
+>> Summary of successfully produced models:
+Filename                          molpdf
+----------------------------------------
+SETD8_HUMAN_D0.B99990001.pdb    11017.14844
+
+-------------------------------------------------------------------------
+Modelling "SETD8_HUMAN_D0" => "SETD8_HUMAN_3F9Z_B"
+-------------------------------------------------------------------------
+0 atoms in HETATM/BLK residues constrained
+to protein atoms within 2.30 angstroms
+and protein CA atoms within 10.00 angstroms
+0 atoms in residues without defined topology
+constrained to be rigid bodies
+
+>> Summary of successfully produced models:
+Filename                          molpdf
+----------------------------------------
+SETD8_HUMAN_D0.B99990001.pdb    10782.88867
+
+-------------------------------------------------------------------------
+Modelling "SETD8_HUMAN_D0" => "SETD8_HUMAN_3F9Z_D"
+-------------------------------------------------------------------------
+0 atoms in HETATM/BLK residues constrained
+to protein atoms within 2.30 angstroms
+and protein CA atoms within 10.00 angstroms
+0 atoms in residues without defined topology
+constrained to be rigid bodies
+
+>> Summary of successfully produced models:
+Filename                          molpdf
+----------------------------------------
+SETD8_HUMAN_D0.B99990001.pdb    40209.83594
+
+-------------------------------------------------------------------------
+Modelling "SETD8_HUMAN_D0" => "SETD8_HUMAN_4IJ8_A"
+-------------------------------------------------------------------------
+0 atoms in HETATM/BLK residues constrained
+to protein atoms within 2.30 angstroms
+and protein CA atoms within 10.00 angstroms
+0 atoms in residues without defined topology
+constrained to be rigid bodies
+
+>> Summary of successfully produced models:
+Filename                          molpdf
+----------------------------------------
+SETD8_HUMAN_D0.B99990001.pdb    25294.80078
+
+-------------------------------------------------------------------------
+Modelling "SETD8_HUMAN_D0" => "SETD8_HUMAN_4IJ8_B"
+-------------------------------------------------------------------------
+0 atoms in HETATM/BLK residues constrained
+to protein atoms within 2.30 angstroms
+and protein CA atoms within 10.00 angstroms
+0 atoms in residues without defined topology
+constrained to be rigid bodies
+
+>> Summary of successfully produced models:
+Filename                          molpdf
+----------------------------------------
+SETD8_HUMAN_D0.B99990001.pdb    55359.46875
+
+-------------------------------------------------------------------------
+Modelling "SETD8_HUMAN_D0" => "SETD8_HUMAN_TDIX_A"
+-------------------------------------------------------------------------
+0 atoms in HETATM/BLK residues constrained
+to protein atoms within 2.30 angstroms
+and protein CA atoms within 10.00 angstroms
+0 atoms in residues without defined topology
+constrained to be rigid bodies
+
+>> Summary of successfully produced models:
+Filename                          molpdf
+----------------------------------------
+SETD8_HUMAN_D0.B99990001.pdb    48089.95312
+
+Done.
+Constructing a trajectory containing all valid models...
+Conducting RMSD-based clustering...
+23 unique models (from original set of 23) using cutoff of 0.000 nm
+Done.
+Auto-selected OpenMM platform: CUDA
+Auto-selected OpenMM platform: CUDA
+Auto-selected OpenMM platform: CUDA
+Auto-selected OpenMM platform: CUDA
+-------------------------------------------------------------------------
+Simulating SETD8_HUMAN_D0 => SETD8_HUMAN_1ZKK_D in implicit solvent for 100.0 ps (MPI rank: 3, GPU ID: 3)
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Simulating SETD8_HUMAN_D0 => SETD8_HUMAN_1ZKK_C in implicit solvent for 100.0 ps (MPI rank: 1, GPU ID: 1)
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Simulating SETD8_HUMAN_D0 => SETD8_HUMAN_1ZKK_B in implicit solvent for 100.0 ps (MPI rank: 2, GPU ID: 2)
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Simulating SETD8_HUMAN_D0 => SETD8_HUMAN_1ZKK_A in implicit solvent for 100.0 ps (MPI rank: 0, GPU ID: 0)
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Simulating SETD8_HUMAN_D0 => SETD8_HUMAN_3F9W_C in implicit solvent for 100.0 ps (MPI rank: 3, GPU ID: 3)
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Simulating SETD8_HUMAN_D0 => SETD8_HUMAN_3F9W_A in implicit solvent for 100.0 ps (MPI rank: 2, GPU ID: 2)
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Simulating SETD8_HUMAN_D0 => SETD8_HUMAN_2BQZ_E in implicit solvent for 100.0 ps (MPI rank: 1, GPU ID: 1)
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Simulating SETD8_HUMAN_D0 => SETD8_HUMAN_2BQZ_A in implicit solvent for 100.0 ps (MPI rank: 0, GPU ID: 0)
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Simulating SETD8_HUMAN_D0 => SETD8_HUMAN_3F9X_C in implicit solvent for 100.0 ps (MPI rank: 3, GPU ID: 3)
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Simulating SETD8_HUMAN_D0 => SETD8_HUMAN_3F9X_A in implicit solvent for 100.0 ps (MPI rank: 2, GPU ID: 2)
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Simulating SETD8_HUMAN_D0 => SETD8_HUMAN_3F9W_B in implicit solvent for 100.0 ps (MPI rank: 0, GPU ID: 0)
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Simulating SETD8_HUMAN_D0 => SETD8_HUMAN_3F9W_D in implicit solvent for 100.0 ps (MPI rank: 1, GPU ID: 1)
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Simulating SETD8_HUMAN_D0 => SETD8_HUMAN_3F9Y_B in implicit solvent for 100.0 ps (MPI rank: 3, GPU ID: 3)
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Simulating SETD8_HUMAN_D0 => SETD8_HUMAN_3F9Y_A in implicit solvent for 100.0 ps (MPI rank: 2, GPU ID: 2)
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Simulating SETD8_HUMAN_D0 => SETD8_HUMAN_3F9X_B in implicit solvent for 100.0 ps (MPI rank: 0, GPU ID: 0)
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Simulating SETD8_HUMAN_D0 => SETD8_HUMAN_3F9X_D in implicit solvent for 100.0 ps (MPI rank: 1, GPU ID: 1)
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Simulating SETD8_HUMAN_D0 => SETD8_HUMAN_3F9Z_D in implicit solvent for 100.0 ps (MPI rank: 3, GPU ID: 3)
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Simulating SETD8_HUMAN_D0 => SETD8_HUMAN_3F9Z_B in implicit solvent for 100.0 ps (MPI rank: 2, GPU ID: 2)
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Simulating SETD8_HUMAN_D0 => SETD8_HUMAN_3F9Z_A in implicit solvent for 100.0 ps (MPI rank: 0, GPU ID: 0)
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Simulating SETD8_HUMAN_D0 => SETD8_HUMAN_3F9Z_C in implicit solvent for 100.0 ps (MPI rank: 1, GPU ID: 1)
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Simulating SETD8_HUMAN_D0 => SETD8_HUMAN_TDIX_A in implicit solvent for 100.0 ps (MPI rank: 2, GPU ID: 2)
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Simulating SETD8_HUMAN_D0 => SETD8_HUMAN_4IJ8_A in implicit solvent for 100.0 ps (MPI rank: 0, GPU ID: 0)
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Simulating SETD8_HUMAN_D0 => SETD8_HUMAN_4IJ8_B in implicit solvent for 100.0 ps (MPI rank: 1, GPU ID: 1)
+-------------------------------------------------------------------------
+Done.
+-------------------------------------------------------------------------
+Solvating SETD8_HUMAN_D0 => SETD8_HUMAN_1ZKK_A in explicit solvent
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Solvating SETD8_HUMAN_D0 => SETD8_HUMAN_1ZKK_C in explicit solvent
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Solvating SETD8_HUMAN_D0 => SETD8_HUMAN_1ZKK_B in explicit solvent
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Solvating SETD8_HUMAN_D0 => SETD8_HUMAN_1ZKK_D in explicit solvent
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Solvating SETD8_HUMAN_D0 => SETD8_HUMAN_2BQZ_A in explicit solvent
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Solvating SETD8_HUMAN_D0 => SETD8_HUMAN_2BQZ_E in explicit solvent
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Solvating SETD8_HUMAN_D0 => SETD8_HUMAN_3F9W_A in explicit solvent
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Solvating SETD8_HUMAN_D0 => SETD8_HUMAN_3F9W_C in explicit solvent
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Solvating SETD8_HUMAN_D0 => SETD8_HUMAN_3F9W_B in explicit solvent
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Solvating SETD8_HUMAN_D0 => SETD8_HUMAN_3F9W_D in explicit solvent
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Solvating SETD8_HUMAN_D0 => SETD8_HUMAN_3F9X_A in explicit solvent
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Solvating SETD8_HUMAN_D0 => SETD8_HUMAN_3F9X_C in explicit solvent
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Solvating SETD8_HUMAN_D0 => SETD8_HUMAN_3F9X_B in explicit solvent
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Solvating SETD8_HUMAN_D0 => SETD8_HUMAN_3F9X_D in explicit solvent
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Solvating SETD8_HUMAN_D0 => SETD8_HUMAN_3F9Y_A in explicit solvent
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Solvating SETD8_HUMAN_D0 => SETD8_HUMAN_3F9Y_B in explicit solvent
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Solvating SETD8_HUMAN_D0 => SETD8_HUMAN_3F9Z_A in explicit solvent
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Solvating SETD8_HUMAN_D0 => SETD8_HUMAN_3F9Z_C in explicit solvent
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Solvating SETD8_HUMAN_D0 => SETD8_HUMAN_3F9Z_B in explicit solvent
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Solvating SETD8_HUMAN_D0 => SETD8_HUMAN_3F9Z_D in explicit solvent
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Solvating SETD8_HUMAN_D0 => SETD8_HUMAN_4IJ8_A in explicit solvent
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Solvating SETD8_HUMAN_D0 => SETD8_HUMAN_4IJ8_B in explicit solvent
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Solvating SETD8_HUMAN_D0 => SETD8_HUMAN_TDIX_A in explicit solvent
+-------------------------------------------------------------------------
+Done.
+Number of waters in solvated models (target: SETD8_HUMAN_D0): min = 8360, max = 13802, mean = 10435.9, 68% = 10874, 95% = 12355, chosen_percentile (68%) = 10874
+Done.
+Auto-selected OpenMM platform: CUDA
+Auto-selected OpenMM platform: CUDA
+Auto-selected OpenMM platform: CUDA
+Auto-selected OpenMM platform: CUDA
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Simulating SETD8_HUMAN_D0 => SETD8_HUMAN_1ZKK_A in explicit solvent for 4999.0 ps-------------------------------------------------------------------------
+
+-------------------------------------------------------------------------
+Simulating SETD8_HUMAN_D0 => SETD8_HUMAN_1ZKK_D in explicit solvent for 4999.0 ps
+-------------------------------------------------------------------------
+Simulating SETD8_HUMAN_D0 => SETD8_HUMAN_1ZKK_B in explicit solvent for 4999.0 ps
+-------------------------------------------------------------------------
+Simulating SETD8_HUMAN_D0 => SETD8_HUMAN_1ZKK_C in explicit solvent for 4999.0 ps
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Simulating SETD8_HUMAN_D0 => SETD8_HUMAN_3F9W_C in explicit solvent for 4999.0 ps
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Simulating SETD8_HUMAN_D0 => SETD8_HUMAN_2BQZ_A in explicit solvent for 4999.0 ps
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Simulating SETD8_HUMAN_D0 => SETD8_HUMAN_3F9W_A in explicit solvent for 4999.0 ps
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Simulating SETD8_HUMAN_D0 => SETD8_HUMAN_2BQZ_E in explicit solvent for 4999.0 ps
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Simulating SETD8_HUMAN_D0 => SETD8_HUMAN_3F9X_C in explicit solvent for 4999.0 ps
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Simulating SETD8_HUMAN_D0 => SETD8_HUMAN_3F9W_B in explicit solvent for 4999.0 ps
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Simulating SETD8_HUMAN_D0 => SETD8_HUMAN_3F9X_A in explicit solvent for 4999.0 ps
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Simulating SETD8_HUMAN_D0 => SETD8_HUMAN_3F9W_D in explicit solvent for 4999.0 ps
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Simulating SETD8_HUMAN_D0 => SETD8_HUMAN_3F9Y_B in explicit solvent for 4999.0 ps
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Simulating SETD8_HUMAN_D0 => SETD8_HUMAN_3F9X_B in explicit solvent for 4999.0 ps
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Simulating SETD8_HUMAN_D0 => SETD8_HUMAN_3F9Y_A in explicit solvent for 4999.0 ps
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Simulating SETD8_HUMAN_D0 => SETD8_HUMAN_3F9X_D in explicit solvent for 4999.0 ps
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Simulating SETD8_HUMAN_D0 => SETD8_HUMAN_3F9Z_D in explicit solvent for 4999.0 ps
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Simulating SETD8_HUMAN_D0 => SETD8_HUMAN_3F9Z_A in explicit solvent for 4999.0 ps
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Simulating SETD8_HUMAN_D0 => SETD8_HUMAN_3F9Z_B in explicit solvent for 4999.0 ps
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Simulating SETD8_HUMAN_D0 => SETD8_HUMAN_3F9Z_C in explicit solvent for 4999.0 ps
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Simulating SETD8_HUMAN_D0 => SETD8_HUMAN_4IJ8_A in explicit solvent for 4999.0 ps
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Simulating SETD8_HUMAN_D0 => SETD8_HUMAN_TDIX_A in explicit solvent for 4999.0 ps
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Simulating SETD8_HUMAN_D0 => SETD8_HUMAN_4IJ8_B in explicit solvent for 4999.0 ps
+-------------------------------------------------------------------------
+Done.
+-------------------------------------------------------------------------
+Building FAH OpenMM project for target SETD8_HUMAN_D0
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Building RUN0 for template SETD8_HUMAN_1ZKK_A
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Building RUN1 for template SETD8_HUMAN_1ZKK_C
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Building RUN2 for template SETD8_HUMAN_1ZKK_B
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Building RUN3 for template SETD8_HUMAN_1ZKK_D
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Building RUN4 for template SETD8_HUMAN_2BQZ_A
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Building RUN5 for template SETD8_HUMAN_2BQZ_E
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Building RUN6 for template SETD8_HUMAN_3F9W_A
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Building RUN7 for template SETD8_HUMAN_3F9W_C
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Building RUN8 for template SETD8_HUMAN_3F9W_B
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Building RUN9 for template SETD8_HUMAN_3F9W_D
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Building RUN10 for template SETD8_HUMAN_3F9X_A
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Building RUN11 for template SETD8_HUMAN_3F9X_C
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Building RUN12 for template SETD8_HUMAN_3F9X_B
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Building RUN13 for template SETD8_HUMAN_3F9X_D
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Building RUN14 for template SETD8_HUMAN_3F9Y_A
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Building RUN15 for template SETD8_HUMAN_3F9Y_B
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Building RUN16 for template SETD8_HUMAN_3F9Z_A
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Building RUN17 for template SETD8_HUMAN_3F9Z_C
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Building RUN18 for template SETD8_HUMAN_3F9Z_B
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Building RUN19 for template SETD8_HUMAN_3F9Z_D
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Building RUN20 for template SETD8_HUMAN_4IJ8_A
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Building RUN21 for template SETD8_HUMAN_4IJ8_B
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+Building RUN22 for template SETD8_HUMAN_TDIX_A
+-------------------------------------------------------------------------
+Done.
+Compute mode is already set to DEFAULT for GPU 0000:84:00.0.
+All done.
+Compute mode is already set to DEFAULT for GPU 0000:83:00.0.
+All done.
+Compute mode is already set to DEFAULT for GPU 0000:04:00.0.
+All done.
+Compute mode is already set to DEFAULT for GPU 0000:03:00.0.
+All done.

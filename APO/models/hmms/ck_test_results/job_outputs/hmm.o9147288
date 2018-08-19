@@ -1,0 +1,24 @@
+Sampling HMSMs:   1% (  1/100) [                                   ] eta --:-- //cbio/jclab/home/rafal.wiewiora/anaconda3/lib/python3.5/site-packages/msmtools/analysis/dense/decomposition.py:540: ImaginaryEigenValueWarning: Using eigenvalues with non-zero imaginary part
+  warnings.warn('Using eigenvalues with non-zero imaginary part', ImaginaryEigenValueWarning)
+/cbio/jclab/home/rafal.wiewiora/anaconda3/lib/python3.5/site-packages/msmtools/estimation/dense/tmatrix_sampler.py:74: RuntimeWarning: invalid value encountered in true_divide
+  return self.sampler.sample(N=self.nsteps, return_statdist=return_statdist)
+Traceback (most recent call last):
+  File "run_hmm.py", line 15, in <module>
+    hmm = pyemma.msm.bayesian_hidden_markov_model(dtrajs, 25, lag, connectivity='largest')
+  File "/cbio/jclab/home/rafal.wiewiora/anaconda3/lib/python3.5/site-packages/pyEMMA-2.4+193.g888a81c-py3.5-linux-x86_64.egg/pyemma/msm/api.py", line 1293, in bayesian_hidden_markov_model
+    return bhmsm_estimator.estimate(dtrajs)
+  File "/cbio/jclab/home/rafal.wiewiora/anaconda3/lib/python3.5/site-packages/pyEMMA-2.4+193.g888a81c-py3.5-linux-x86_64.egg/pyemma/_base/estimator.py", line 369, in estimate
+    self._model = self._estimate(X)
+  File "/cbio/jclab/home/rafal.wiewiora/anaconda3/lib/python3.5/site-packages/pyEMMA-2.4+193.g888a81c-py3.5-linux-x86_64.egg/pyemma/msm/estimators/bayesian_hmsm.py", line 228, in _estimate
+    store_hidden=self.store_hidden, call_back=call_back)
+  File "/cbio/jclab/home/rafal.wiewiora/anaconda3/lib/python3.5/site-packages/bhmm/api.py", line 450, in bayesian_hmm
+    call_back=call_back)
+  File "/cbio/jclab/home/rafal.wiewiora/anaconda3/lib/python3.5/site-packages/bhmm/estimators/bayesian_sampling.py", line 243, in sample
+    self._update()
+  File "/cbio/jclab/home/rafal.wiewiora/anaconda3/lib/python3.5/site-packages/bhmm/estimators/bayesian_sampling.py", line 264, in _update
+    self._updateTransitionMatrix()
+  File "/cbio/jclab/home/rafal.wiewiora/anaconda3/lib/python3.5/site-packages/bhmm/estimators/bayesian_sampling.py", line 355, in _updateTransitionMatrix
+    self.model.update(p0, Tij)
+  File "/cbio/jclab/home/rafal.wiewiora/anaconda3/lib/python3.5/site-packages/bhmm/hmm/generic_hmm.py", line 80, in update
+    assert msmana.is_transition_matrix(self._Tij), 'Given transition matrix is not a stochastic matrix'
+AssertionError: Given transition matrix is not a stochastic matrix

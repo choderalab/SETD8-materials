@@ -1,0 +1,70 @@
+# walltime : maximum wall clock time (hh:mm:ss)
+#PBS -l walltime=72:00:00
+#
+# join stdout and stderr
+#PBS -j oe
+#
+# spool output immediately
+#PBS -k oe
+#
+# specify GPU queue
+#PBS -q gpu
+#
+# nodes: number of nodes
+#   ppn: number of processes per node
+#  gpus: number of gpus per node
+#  GPUs are in 'exclusive' mode by default, but 'shared' keyword sets them to shared mode.
+#PBS -l nodes=1:ppn=4:gpus=4:shared,mem=20GB
+#
+# export all my environment variables to the job
+#PBS -V
+#
+# job name (default = name of script file)
+#PBS -N ensembler
+#
+# mail settings (one or more characters)
+# email is sent to local user, unless another email address is specified with PBS -M option 
+# n: do not send mail
+# a: send mail if job is aborted
+# b: send mail when job begins execution
+# e: send mail when job terminates
+#PBS -m n
+#
+# filename for standard output (default = <job_name>.o<job_id>)
+# at end of job, it is in directory from which qsub was executed
+# remove extra ## from the line below if you want to name your own file
+##PBS -o myoutput
+
+# Change to working directory used for job submission
+cd $PBS_O_WORKDIR
+
+# add anaconda to PATH
+export PATH=/cbio/jclab/home/rafal.wiewiora/anaconda/bin:$PATH
+ensembler init
+cp files/manual-overrides.yaml .
+mkdir manual_pdbs
+cp files/TDIX.pdb manual_pdbs
+ensembler gather_targets --gather_from uniprot --query SETD8_HUMAN --uniprot_domain_regex SET
+ensembler gather_templates --gather_from uniprot --query SETD8_HUMAN
+python gather_manual_templates.py
+ensembler align
+ensembler build_models
+ensembler cluster --cutoff 0
+
+# turn off automatic CUDA_VISIBLE_DEVICES assignment
+touch $HOME/.dontsetcudavisibledevices
+
+# Parallelize refinement
+build_mpirun_configfile ensembler refine_implicit --gpupn 4
+mpirun -configfile configfile
+
+ensembler solvate
+
+# Parallelize refinement
+build_mpirun_configfile ensembler refine_explicit --gpupn 4 --simlength 5*nanoseconds
+mpirun -configfile configfile
+
+# clean up CUDA_VISIBLE_DEVICES assignment
+rm $HOME/.dontsetcudavisibledevices
+
+ensembler package_models --package_for FAH

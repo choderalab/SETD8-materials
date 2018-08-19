@@ -1,0 +1,12 @@
+datestamp: 2016-04-08 06:50:38 UTC
+finished: true
+gpuid: '2'
+hostname: gpu-1-7.local
+mpi_rank: 1
+openmm_platform: CUDA
+ph: 7.0
+sim_length: 100 ps
+successful: true
+temperature: 300.0 K
+timestep: 2.0 fs
+timing: 0:0:19

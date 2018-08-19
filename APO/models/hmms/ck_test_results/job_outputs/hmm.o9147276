@@ -1,0 +1,23 @@
+/cbio/jclab/home/rafal.wiewiora/anaconda3/lib/python3.5/site-packages/msmtools/analysis/dense/decomposition.py:540: ImaginaryEigenValueWarning: Using eigenvalues with non-zero imaginary part
+  warnings.warn('Using eigenvalues with non-zero imaginary part', ImaginaryEigenValueWarning)
+Traceback (most recent call last):
+  File "run_hmm.py", line 15, in <module>
+    hmm = pyemma.msm.bayesian_hidden_markov_model(dtrajs, 25, lag, connectivity='largest')
+  File "/cbio/jclab/home/rafal.wiewiora/anaconda3/lib/python3.5/site-packages/pyEMMA-2.4+193.g888a81c-py3.5-linux-x86_64.egg/pyemma/msm/api.py", line 1293, in bayesian_hidden_markov_model
+    return bhmsm_estimator.estimate(dtrajs)
+  File "/cbio/jclab/home/rafal.wiewiora/anaconda3/lib/python3.5/site-packages/pyEMMA-2.4+193.g888a81c-py3.5-linux-x86_64.egg/pyemma/_base/estimator.py", line 369, in estimate
+    self._model = self._estimate(X)
+  File "/cbio/jclab/home/rafal.wiewiora/anaconda3/lib/python3.5/site-packages/pyEMMA-2.4+193.g888a81c-py3.5-linux-x86_64.egg/pyemma/msm/estimators/bayesian_hmsm.py", line 163, in _estimate
+    super(BayesianHMSM, self)._estimate(dtrajs)
+  File "/cbio/jclab/home/rafal.wiewiora/anaconda3/lib/python3.5/site-packages/pyEMMA-2.4+193.g888a81c-py3.5-linux-x86_64.egg/pyemma/msm/estimators/maximum_likelihood_hmsm.py", line 217, in _estimate
+    hmm_est.fit()
+  File "/cbio/jclab/home/rafal.wiewiora/anaconda3/lib/python3.5/site-packages/bhmm/estimators/maximum_likelihood.py", line 388, in fit
+    self._update_model(self._gammas, self._Cs, maxiter=self._maxit_P)
+  File "/cbio/jclab/home/rafal.wiewiora/anaconda3/lib/python3.5/site-packages/bhmm/estimators/maximum_likelihood.py", line 300, in _update_model
+    maxiter=maxiter, maxerr=1e-12, mincount_connectivity=1e-16)
+  File "/cbio/jclab/home/rafal.wiewiora/anaconda3/lib/python3.5/site-packages/bhmm/estimators/_tmatrix_disconnected.py", line 88, in estimate_P
+    maxiter=maxiter, maxerr=maxerr)
+  File "/cbio/jclab/home/rafal.wiewiora/anaconda3/lib/python3.5/site-packages/msmtools/estimation/api.py", line 943, in transition_matrix
+    T = dense.mle_trev.mle_trev(C, **kwargs)
+  File "msmtools/estimation/dense/mle_trev.pyx", line 75, in msmtools.estimation.dense.mle_trev.mle_trev (msmtools/estimation/dense/mle_trev.c:2309)
+Exception: Stationary distribution contains entries smaller than 1e-15 during iteration

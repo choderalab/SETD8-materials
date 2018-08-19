@@ -1,0 +1,57 @@
+init:
+  datestamp: 2016-07-13 16:50:41 UTC
+  ensembler_commit: 73352ac9db2b51d0dd5fa8b22c38799f7b1b99e3
+  ensembler_version: 1.0.5
+  init_path: /cbio/jclab/home/rafal.wiewiora/FAH/SETD8_ensembler_25models
+  iteration: 0
+  python_full_version: !!python/object/new:ensembler.core.literal_str
+  - "2.7.11 |Anaconda 2.4.1 (64-bit)| (default, Jun 15 2016, 15:21:30) \n[GCC 4.4.7
+    20120313 (Red Hat 4.4.7-1)]"
+  python_version: 2.7.11
+gather_targets:
+  datestamp: 2016-07-13 16:50:51 UTC
+  ensembler_commit: 73352ac9db2b51d0dd5fa8b22c38799f7b1b99e3
+  ensembler_version: 1.0.5
+  gather_from_uniprot:
+    uniprot_domain_regex: SET
+    uniprot_query_string: accession:Q9NQR1
+  iteration: 0
+  method: UniProt
+  ntargets: '1'
+  python_full_version: !!python/object/new:ensembler.core.literal_str
+  - "2.7.11 |Anaconda 2.4.1 (64-bit)| (default, Jun 15 2016, 15:21:30) \n[GCC 4.4.7
+    20120313 (Red Hat 4.4.7-1)]"
+  python_version: 2.7.11
+gather_templates:
+  datestamp: 2016-07-13 16:51:05 UTC
+  ensembler_commit: 73352ac9db2b51d0dd5fa8b22c38799f7b1b99e3
+  ensembler_version: 1.0.5
+  gather_from_uniprot:
+    uniprot_domain_regex: null
+    uniprot_query_string: accession:Q9NQR1
+  iteration: 0
+  method: UniProt
+  ntemplates: '23'
+  python_full_version: !!python/object/new:ensembler.core.literal_str
+  - "2.7.11 |Anaconda 2.4.1 (64-bit)| (default, Jun 15 2016, 15:21:30) \n[GCC 4.4.7
+    20120313 (Red Hat 4.4.7-1)]"
+  python_version: 2.7.11
+  structure_dirs: false
+build_models:
+  biopython_version: '1.65'
+  datestamp: 2016-07-13 16:51:56 UTC
+  ensembler_commit: 73352ac9db2b51d0dd5fa8b22c38799f7b1b99e3
+  ensembler_version: 1.0.5
+  iteration: 0
+  modeller_version: '9.16'
+  nsuccessful_models: 2
+  process_only_these_targets: false
+  process_only_these_templates: false
+  python_full_version: !!python/object/new:ensembler.core.literal_str
+  - "2.7.11 |Anaconda 2.4.1 (64-bit)| (default, Jun 15 2016, 15:21:30) \n[GCC 4.4.7
+    20120313 (Red Hat 4.4.7-1)]"
+  python_version: 2.7.11
+  target_id: KMT5A_HUMAN_D0
+  template_seqid_cutoff: false
+  timing: 0:0:39
+  write_modeller_restraints_file: false

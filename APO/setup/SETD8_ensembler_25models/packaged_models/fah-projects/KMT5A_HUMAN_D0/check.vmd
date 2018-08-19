@@ -1,0 +1,11 @@
+for {set x 0} {$x <= 99} {incr x} {
+  
+   if { [file exists "RUN$x/protein.pdb"] == 1} {
+      puts "RUN$x"
+      mol new "RUN$x/protein.pdb"
+      chirality check -mol [molinfo top]
+      cispeptide check -mol [molinfo top]
+      puts "---------------"
+      
+   }   
+}  

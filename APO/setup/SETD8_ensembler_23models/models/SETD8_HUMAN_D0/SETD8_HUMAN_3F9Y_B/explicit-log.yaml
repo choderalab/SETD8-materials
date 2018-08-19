@@ -1,0 +1,9 @@
+datestamp: 2016-04-08 16:16:58 UTC
+finished: true
+gpuid: '0'
+hostname: gpu-1-7.local
+mpi_rank: 3
+openmm_platform: CUDA
+sim_length: 5 ns
+successful: true
+timing: '3:10:23'

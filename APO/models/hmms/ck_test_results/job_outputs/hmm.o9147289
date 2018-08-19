@@ -1,0 +1,17 @@
+05-10-17 00:31:27 pyemma.msm.estimators.bayesian_hmsm.BayesianHMSM[0] WARNING  Lag time 2000 is on the order of mean trajectory length 1965.06415621. It is recommended to fit four lag times in each trajectory. HMM might be inaccurate.
+Traceback (most recent call last):
+  File "run_hmm.py", line 15, in <module>
+    hmm = pyemma.msm.bayesian_hidden_markov_model(dtrajs, 25, lag, connectivity='largest')
+  File "/cbio/jclab/home/rafal.wiewiora/anaconda3/lib/python3.5/site-packages/pyEMMA-2.4+193.g888a81c-py3.5-linux-x86_64.egg/pyemma/msm/api.py", line 1293, in bayesian_hidden_markov_model
+    return bhmsm_estimator.estimate(dtrajs)
+  File "/cbio/jclab/home/rafal.wiewiora/anaconda3/lib/python3.5/site-packages/pyEMMA-2.4+193.g888a81c-py3.5-linux-x86_64.egg/pyemma/_base/estimator.py", line 369, in estimate
+    self._model = self._estimate(X)
+  File "/cbio/jclab/home/rafal.wiewiora/anaconda3/lib/python3.5/site-packages/pyEMMA-2.4+193.g888a81c-py3.5-linux-x86_64.egg/pyemma/msm/estimators/bayesian_hmsm.py", line 163, in _estimate
+    super(BayesianHMSM, self)._estimate(dtrajs)
+  File "/cbio/jclab/home/rafal.wiewiora/anaconda3/lib/python3.5/site-packages/pyEMMA-2.4+193.g888a81c-py3.5-linux-x86_64.egg/pyemma/msm/estimators/maximum_likelihood_hmsm.py", line 191, in _estimate
+    method='lcs-spectral', separate=self.separate)
+  File "/cbio/jclab/home/rafal.wiewiora/anaconda3/lib/python3.5/site-packages/bhmm/api.py", line 272, in init_discrete_hmm
+    active_set=lcs, separate=separate, eps_A=eps_A, eps_B=eps_B)
+  File "/cbio/jclab/home/rafal.wiewiora/anaconda3/lib/python3.5/site-packages/bhmm/init/discrete.py", line 258, in init_discrete_hmm_spectral
+    + str(active_nonseparate.size) + '-state MSM.')
+NotImplementedError: Trying to initialize 25-state HMM from smaller 8-state MSM.

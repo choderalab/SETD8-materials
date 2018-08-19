@@ -1,0 +1,19 @@
+complete: false
+datestamp: 2016-06-24 00:11:56 UTC
+exception: !!python/object/apply:_modeller.ModellerError
+- 'read_te_290E> Number of residues in the alignment and  pdb files are different:      160      312
+  For alignment entry:        1  SETD8_HUMAN_TDIY_A'
+hostname: gpu-2-8.local
+mpi_rank: 0
+traceback: !!python/object/new:ensembler.core.literal_str
+- "Traceback (most recent call last):\n  File \"/cbio/jclab/home/rafal.wiewiora/anaconda/lib/python2.7/site-packages/ensembler/modeling.py\",
+  line 548, in build_model\n    write_modeller_restraints_file=write_modeller_restraints_file)\n
+  \ File \"/cbio/jclab/home/rafal.wiewiora/anaconda/lib/python2.7/site-packages/ensembler/modeling.py\",
+  line 694, in run_modeller\n    a.make()  # do homology modeling\n  File \"/cbio/jclab/home/rafal.wiewiora/anaconda/lib/python2.7/site-packages/modeller/automodel/automodel.py\",
+  line 110, in make\n    self.homcsr(exit_stage)\n  File \"/cbio/jclab/home/rafal.wiewiora/anaconda/lib/python2.7/site-packages/modeller/automodel/automodel.py\",
+  line 488, in homcsr\n    self.check_alignment(aln)\n  File \"/cbio/jclab/home/rafal.wiewiora/anaconda/lib/python2.7/site-packages/modeller/automodel/automodel.py\",
+  line 470, in check_alignment\n    aln.check()\n  File \"/cbio/jclab/home/rafal.wiewiora/anaconda/lib/python2.7/site-packages/modeller/alignment.py\",
+  line 208, in check\n    self.check_structure_structure(io=io)\n  File \"/cbio/jclab/home/rafal.wiewiora/anaconda/lib/python2.7/site-packages/modeller/alignment.py\",
+  line 217, in check_structure_structure\n    return f(self.modpt, io.modpt, self.env.libs.modpt,
+  eqvdst)\nModellerError: read_te_290E> Number of residues in the alignment and  pdb
+  files are different:      160      312 For alignment entry:        1  SETD8_HUMAN_TDIY_A\n"

@@ -1,0 +1,9 @@
+datestamp: 2016-07-13 19:04:23 UTC
+finished: true
+gpuid: '0'
+hostname: cc27.local
+mpi_rank: 0
+openmm_platform: CUDA
+sim_length: 5 ns
+successful: true
+timing: '2:13:44'

@@ -1,0 +1,3 @@
+05-10-17 11:31:40 pyemma.msm.estimators.maximum_likelihood_hmsm.MaximumLikelihoodHMSM[0] WARNING  Lag time 2000 is on the order of mean trajectory length 1965.06415621. It is recommended to fit four lag times in each trajectory. HMM might be inaccurate.
+/cbio/jclab/home/rafal.wiewiora/anaconda3/lib/python3.5/site-packages/pyEMMA-2.4+193.g888a81c-py3.5-linux-x86_64.egg/pyemma/msm/models/hmsm.py:129: RuntimeWarning: divide by zero encountered in true_divide
+  return -self._timeunit_model.dt / _np.log(_np.diag(self.transition_matrix))
