@@ -1,0 +1,68 @@
+<Residues>
+ <Residue name="MLZ">
+  <H name="H" parent="N"/>
+  <H name="H2" parent="N" terminal="N"/>
+  <H name="H3" parent="N" terminal="N"/>
+  <H name="HA" parent="CA"/>
+  <H name="HB2" parent="CB"/>
+  <H name="HB3" parent="CB"/>
+  <H name="HD2" parent="CD"/>
+  <H name="HD3" parent="CD"/>
+  <H name="HE2" parent="CE"/>
+  <H name="HE3" parent="CE"/>
+  <H name="HG2" parent="CG"/>
+  <H name="HG3" parent="CG"/>
+  <H name="HZ2" parent="NZ"/>
+  <H name="HZ3" parent="NZ"/>
+  <H name="HCM1" parent="CM"/>
+  <H name="HCM2" parent="CM"/>
+  <H name="HCM3" parent="CM"/>
+ </Residue>
+ <Residue name="SAM">
+  <H name="HN1" parent="N"/>
+  <H name="HN2" parent="N"/>
+  <H name="HN3" parent="N"/>
+  <H name="HA" parent="CA"/>
+  <H name="HB1" parent="CB"/>
+  <H name="HB2" parent="CB"/>
+  <H name="HG1" parent="CG"/>
+  <H name="HG2" parent="CG"/>
+  <H name="HE1" parent="CE"/>
+  <H name="HE2" parent="CE"/>
+  <H name="HE3" parent="CE"/>
+  <H name="H5'1" parent="C5'"/>
+  <H name="H5'2" parent="C5'"/>
+  <H name="H4'" parent="C4'"/>
+  <H name="H3'" parent="C3'"/>
+  <H name="HO3'" parent="O3'"/>
+  <H name="H2'" parent="C2'"/>
+  <H name="HO2'" parent="O2'"/>
+  <H name="H1'" parent="C1'"/>
+  <H name="H8" parent="C8"/>
+  <H name="HN61" parent="N6"/>
+  <H name="HN62" parent="N6"/>
+  <H name="H2" parent="C2"/>
+ </Residue>
+ <Residue name="SAH">
+  <H name="HN1" parent="N"/>
+  <H name="HN2" parent="N"/>
+  <H name="HN3" parent="N"/>
+  <H name="HA" parent="CA"/>
+  <H name="HB1" parent="CB"/>
+  <H name="HB2" parent="CB"/>
+  <H name="HG1" parent="CG"/>
+  <H name="HG2" parent="CG"/>
+  <H name="H5'1" parent="C5'"/>
+  <H name="H5'2" parent="C5'"/>
+  <H name="H4'" parent="C4'"/>
+  <H name="H3'" parent="C3'"/>
+  <H name="HO3'" parent="O3'"/>
+  <H name="H2'" parent="C2'"/>
+  <H name="HO2'" parent="O2'"/>
+  <H name="H1'" parent="C1'"/>
+  <H name="H8" parent="C8"/>
+  <H name="HN61" parent="N6"/>
+  <H name="HN62" parent="N6"/>
+  <H name="H2" parent="C2"/>
+  </Residue>
+</Residues>

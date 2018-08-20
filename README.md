@@ -2,8 +2,8 @@
 
 This site archives trajectory data, scripts, and supplementary figures for the following publication:
 
-Soreen Cyphers, Emily F Ruff, Julie M Behr, John D Chodera, and Nicholas M Levinson.  
-**A water-mediated allosteric network governs activation of Aurora kinase A**.  
+Shi Chen, Rafal P. Wiewiora, Fanwang Meng, Nicolas Babault, Anqi Ma, Wenyu Yu, Kun Qian, Hao Hu, Hua Zou, Junyi Wang, Shijie Fan, Gil Blum, Fabio Pittella-Silva, Kyle A. Beauchamp, Wolfram Tempel, Hualiang Jiang, Kaixian Chen, Robert Skene, Y. George Zheng, Peter J. Brown, Jian Jin, Cheng Luo, John D. Chodera, and Minkui Luo.
+**The Dynamic Conformational Landscapes of the Protein Methyltransferase SETD8**.  
 DOI: 
 
 Complete Folding@home simulation data analyzed for this publication is available via the [Open Science Framework](https://osf.io/2h6p4/).
