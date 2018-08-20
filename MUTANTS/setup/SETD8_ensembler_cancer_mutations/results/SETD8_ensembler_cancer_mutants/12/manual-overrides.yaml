@@ -1,0 +1,20 @@
+target-selection:
+    domain-spans:
+        KMT5A_HUMAN_D0: 232-393
+template-selection:
+    skip-pdbs:
+        - 2BQZ
+        - 3F9W
+        - 3F9X
+        - 3F9Y
+        - 3F9Z
+        - 4IJ8
+        - 5HQ2
+        - 5T5G
+        - 5TEG
+        - 5TH7
+        - 5W1Y     
+refinement:
+    custom_residue_variants:
+        KMT5A_HUMAN_D0:
+            118: HIE

@@ -1,0 +1,92 @@
+init:
+  datestamp: 2017-09-25 07:45:07 UTC
+  ensembler_commit: 73352ac9db2b51d0dd5fa8b22c38799f7b1b99e3
+  ensembler_version: 1.0.5
+  init_path: /cbio/jclab/home/rafal.wiewiora/repos/pimento-work/SETD8_ensembler_cancer_mutants/7
+  iteration: 0
+  python_full_version: !!python/object/new:ensembler.core.literal_str
+  - "2.7.13 |Anaconda 4.4.0 (64-bit)| (default, Dec 20 2016, 23:09:15) \n[GCC 4.4.7
+    20120313 (Red Hat 4.4.7-1)]"
+  python_version: 2.7.13
+gather_targets: null
+gather_templates:
+  datestamp: 2017-09-25 07:47:16 UTC
+  ensembler_commit: 73352ac9db2b51d0dd5fa8b22c38799f7b1b99e3
+  ensembler_version: 1.0.5
+  gather_from_uniprot:
+    uniprot_domain_regex: null
+    uniprot_query_string: accession:Q9NQR1
+  iteration: 0
+  method: UniProt
+  ntemplates: '4'
+  python_full_version: !!python/object/new:ensembler.core.literal_str
+  - "2.7.13 |Anaconda 4.4.0 (64-bit)| (default, Dec 20 2016, 23:09:15) \n[GCC 4.4.7
+    20120313 (Red Hat 4.4.7-1)]"
+  python_version: 2.7.13
+  structure_dirs: false
+build_models:
+  biopython_version: '1.69'
+  datestamp: 2017-09-25 07:51:08 UTC
+  ensembler_commit: 73352ac9db2b51d0dd5fa8b22c38799f7b1b99e3
+  ensembler_version: 1.0.5
+  iteration: 0
+  modeller_version: '9.16'
+  nsuccessful_models: 4
+  process_only_these_targets: false
+  process_only_these_templates: false
+  python_full_version: !!python/object/new:ensembler.core.literal_str
+  - "2.7.13 |Anaconda 4.4.0 (64-bit)| (default, Dec 20 2016, 23:09:15) \n[GCC 4.4.7
+    20120313 (Red Hat 4.4.7-1)]"
+  python_version: 2.7.13
+  target_id: KMT5A_HUMAN_D0
+  template_seqid_cutoff: false
+  timing: 0:1:30
+  write_modeller_restraints_file: false
+cluster_models:
+  biopython_version: '1.69'
+  datestamp: 2017-09-25 07:52:25 UTC
+  ensembler_commit: 73352ac9db2b51d0dd5fa8b22c38799f7b1b99e3
+  ensembler_version: 1.0.5
+  iteration: 0
+  mdtraj_commit: Unknown
+  mdtraj_version: 1.9.1
+  nunique_models: 4
+  python_full_version: !!python/object/new:ensembler.core.literal_str
+  - "2.7.13 |Anaconda 4.4.0 (64-bit)| (default, Dec 20 2016, 23:09:15) \n[GCC 4.4.7
+    20120313 (Red Hat 4.4.7-1)]"
+  python_version: 2.7.13
+  target_id: KMT5A_HUMAN_D0
+  timing: 0:0:0
+refine_implicit_md:
+  biopython_version: '1.69'
+  collision_rate: 20.0 /ps
+  custom_residue_variants:
+    KMT5A_HUMAN_D0:
+      119: HIE
+  cutoff: None
+  datestamp: 2017-09-25 07:54:52 UTC
+  ensembler_commit: 73352ac9db2b51d0dd5fa8b22c38799f7b1b99e3
+  ensembler_version: 1.0.5
+  ff: amber99sbildn
+  implicit_water_model: tip3p
+  include_disulfide_bonds: false
+  iteration: 0
+  nsteps_per_iteration: 500
+  nsuccessful_refinements: 4
+  openmm_commit: Unknown
+  openmm_platform: CUDA
+  openmm_version: 6.3.1
+  ph: 7.0
+  process_only_these_targets: false
+  process_only_these_templates: false
+  python_full_version: !!python/object/new:ensembler.core.literal_str
+  - "2.7.13 |Anaconda 4.4.0 (64-bit)| (default, Dec 20 2016, 23:09:15) \n[GCC 4.4.7
+    20120313 (Red Hat 4.4.7-1)]"
+  python_version: 2.7.13
+  sim_length: 100 ps
+  target_id: KMT5A_HUMAN_D0
+  temperature: 300.0 K
+  template_seqid_cutoff: false
+  timestep: 2.0 fs
+  timing: 0:1:22
+  write_trajectory: false

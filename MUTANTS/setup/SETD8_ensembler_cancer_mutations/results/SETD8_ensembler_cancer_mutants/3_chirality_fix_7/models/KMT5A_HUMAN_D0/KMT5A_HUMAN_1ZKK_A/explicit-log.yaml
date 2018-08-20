@@ -1,0 +1,7 @@
+datestamp: 2017-09-26 00:58:19 UTC
+finished: false
+gpuid: '0'
+hostname: gpu-2-9.local
+mpi_rank: 0
+openmm_platform: CUDA
+sim_length: 5 ns

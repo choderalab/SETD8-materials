@@ -1,0 +1,4 @@
+KMT5A_HUMAN_1ZKK_B             99.4
+KMT5A_HUMAN_1ZKK_D             99.4
+KMT5A_HUMAN_1ZKK_A             99.4
+KMT5A_HUMAN_1ZKK_C             99.4
